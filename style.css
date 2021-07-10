@@ -1,0 +1,30 @@
+.images{
+   background-color: rgb(189 202 212 / 30%);
+    width: 25rem;
+    height: 25rem;
+    margin: auto;
+    /* width: auto;
+    height: auto; */
+}
+.btn{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform:translate(-50%,-50%);
+    width: 15rem;
+}
+header{
+    width: 100vw;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 400px) {
+ 
+  .images{
+        width: 15rem;
+    }
+}
+
